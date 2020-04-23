@@ -2,10 +2,58 @@
 <html>
 	<head>
 		<title>Welcome to My Home</title>
+		<style>
+
+			ol > li {
+				color: red;
+			}
+			ul > li {
+				color: blue;
+			}
+
+			input[type=text] {
+				background-color: cyan;
+			}
+
+			input[type=number] {
+				background-color: grey;
+			}
+
+			a:: before {
+				content: "\21d2 Click here: ";
+				font-weight: bold;
+			}
+			
+		</style>
 	</head>
 	<body> 
 		Hello, World
 		Here is a new feature
+		<ol>
+			<li> listing in ordered list</li>
+			<li> It is a part of the CSS learning</li>
+			<ul>
+				<li> It is under classification of unordered list </li>
+				<li> under the ordered list as a sub-class</li>
+			</ul>
+			<li> one more at the end of ordered list</li>
+		</ol>
+		
+		<h3> This part is about attribute.html file </h3>
+		
+		<form>
+
+			<input name = "name" type= "text" placeholder = "First Name">
+			<input name = "name" type= "text" placeholder = "Last Name">
+			<input name = "name" type= "number" placeholder = "Age">
+
+		</form>
+		<h3> This part is about file name before.html </h3>
+		<ul>
+			<li><a href = "#"> one link</a></li>
+			<li><a href= "#"> another link</a></li>
+			<li><a href ="#"> Third link inside the page not outside</a></li>
+
 
 	</body>
 </html>
